@@ -16,6 +16,8 @@ function mimapaqr_custom_post(){
     ));
 
     
+
+    
     //servicios
     register_taxonomy('giro',array('promocion'), array(
         'hierarchical' => true,
@@ -27,20 +29,6 @@ function mimapaqr_custom_post(){
         'show_ui' => true
     ));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function mimapaqr_setup()
 {
