@@ -150,6 +150,13 @@
                 "operator": "==",
                 "value": "promocion"
             }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "117"
+            }
         ]
     ],
     "menu_order": 0,
@@ -168,5 +175,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1594158458
+    "modified": 1594235366
 }

@@ -10,7 +10,7 @@ function mimapaqr_custom_post(){
         'public' => true,
         'has_archive' => true,
         'show_in_rest' => true,
-        'supports' => array('title','editor', 'thumbnail'),
+        'supports' => array('title', 'excerpt','editor', 'thumbnail'),
         'menu_icon'   => 'dashicons-admin-site',
         'rewrite' => array('slug' => 'promociones'),
     ));
@@ -26,7 +26,7 @@ function mimapaqr_custom_post(){
             'singular_name' => __('Giro')
         ),
         'show_in_rest' => true,
-        'show_ui' => true
+        'show_ui' => true,
     ));
 }
 
